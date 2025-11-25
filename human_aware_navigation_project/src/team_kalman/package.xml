@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>team_kalman</name>
+  <version>0.0.1</version>
+  <description>
+    Kalman-based human / moving-object trajectory prediction
+    for Human-Aware Navigation project.
+  </description>
+
+  <maintainer email="">Waleed</maintainer>
+  <license>MIT</license>
+
+  <!-- Build tools -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- Runtime + build dependencies -->
+  <depend>rclpy</depend>
+  <depend>std_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>team_lidar</depend>
+  
+  <!-- Note: numpy is required but must be installed separately via pip: pip install numpy -->
+
+  <!-- Build dependencies for message generation -->
+  <build_depend>rosidl_default_generators</build_depend>
+  <build_depend>team_lidar</build_depend>
+  <exec_depend>rosidl_default_runtime</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

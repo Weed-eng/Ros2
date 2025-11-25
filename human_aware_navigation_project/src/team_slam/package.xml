@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>team_slam</name>
+  <version>0.0.1</version>
+  <description>
+    SLAM configuration and map saving utilities for Human-Aware Navigation project.
+  </description>
+
+  <maintainer email="">Waleed</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclpy</depend>
+  <depend>slam_toolbox</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+

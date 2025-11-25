@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>team_safety</name>
+  <version>0.0.1</version>
+  <description>Safety override controller for Human-Aware Navigation</description>
+
+  <maintainer email="waleed@example.com">Waleed</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclpy</depend>
+  <depend>geometry_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>team_kalman</depend>
+  <depend>tf2_ros</depend>
+
+  <!-- Build dependency for message generation -->
+  <build_depend>team_kalman</build_depend>
+  <exec_depend>rosidl_default_runtime</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

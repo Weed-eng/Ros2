@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>team_lidar</name>
+  <version>0.0.1</version>
+  <description>
+    Real-time moving object detection and tracking from LiDAR for Human-Aware Navigation.
+  </description>
+
+  <maintainer email="your_email@example.com">Your Name</maintainer>
+  <license>MIT</license>
+
+  <!-- Build tools -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- Runtime/Build dependencies -->
+  <depend>rclpy</depend>
+  <depend>sensor_msgs</depend>
+  <depend>std_msgs</depend>
+
+  <!-- Message generation -->
+  <build_depend>rosidl_default_generators</build_depend>
+  <exec_depend>rosidl_default_runtime</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

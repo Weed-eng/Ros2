@@ -1,0 +1,22 @@
+slam_toolbox:
+  ros__parameters:
+    use_sim_time: true
+    mode: "mapping"
+
+    # map output settings
+    map_file_name: "my_map"
+
+    # frames
+    odom_frame: "odom"
+    map_frame: "map"
+    base_frame: "base_link"
+
+    # topics
+    scan_topic: "/scan"
+
+    # timing
+    transform_publish_period: 0.05
+    minimum_time_interval: 0.0
+
+    # lidar
+    max_laser_range: 3.5
